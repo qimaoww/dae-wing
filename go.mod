@@ -5,8 +5,6 @@ go 1.22.0
 toolchain go1.23.6
 
 require (
-	github.com/qimaoww/dae v0.2.0
-	github.com/qimaoww/outbound v0.0.0-20250722064253-00c4fbb38759
 	github.com/glebarez/sqlite v1.8.0
 	github.com/go-co-op/gocron v1.37.0
 	github.com/golang-jwt/jwt/v5 v5.0.0
@@ -15,6 +13,8 @@ require (
 	github.com/matoous/go-nanoid/v2 v2.0.0
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
 	github.com/mzz2017/softwind v0.0.0-20230803152605-5f1f6bc06934
+	github.com/qimaoww/dae v0.2.0
+	github.com/qimaoww/outbound v0.0.0-20251226104634-6d59db1b139d
 	github.com/rs/cors v1.9.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
@@ -42,7 +42,6 @@ require (
 	github.com/bits-and-blooms/bloom/v3 v3.7.0 // indirect
 	github.com/cilium/ebpf v0.15.0 // indirect
 	github.com/cloudflare/circl v1.3.9 // indirect
-	github.com/qimaoww/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d // indirect
 	github.com/daeuniverse/quic-go v0.0.0-20250210145620-2083199a7851 // indirect
 	github.com/dgryski/go-camellia v0.0.0-20191119043421-69a8a13fb23d // indirect
 	github.com/dgryski/go-idea v0.0.0-20170306091226-d2fb45a411fb // indirect
@@ -65,6 +64,7 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -81,6 +81,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.22.2 // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
+	github.com/qimaoww/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
@@ -109,6 +110,7 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240711142825-46eb208f015d // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
+	lukechampine.com/blake3 v1.2.1 // indirect
 	modernc.org/libc v1.24.1 // indirect
 	modernc.org/mathutil v1.6.0 // indirect
 	modernc.org/memory v1.6.0 // indirect
@@ -116,5 +118,7 @@ require (
 )
 
 replace github.com/qimaoww/dae => ./dae-core
+
+replace github.com/qimaoww/dae-config-dist/go/dae_config => github.com/daeuniverse/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d
 
 // replace github.com/qimaoww/dae => ../dae
