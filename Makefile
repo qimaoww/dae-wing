@@ -7,7 +7,7 @@ OUTPUT ?= ./dae-wing
 APPNAME ?= dae-wing
 DESCRIPTION ?= $(APPNAME) is a integration solution of dae, API and UI.
 VERSION ?= 0.0.0.unknown
-GO_LDFLAGS := '-s -w -X github.com/daeuniverse/dae-wing/db.AppVersion=$(VERSION) -X github.com/daeuniverse/dae-wing/db.AppName=$(APPNAME) -X "github.com/daeuniverse/dae-wing/db.AppDescription=$(DESCRIPTION)" $(GO_LDFLAGS)'
+GO_LDFLAGS := '-s -w -X github.com/qimaoww/dae-wing/db.AppVersion=$(VERSION) -X github.com/qimaoww/dae-wing/db.AppName=$(APPNAME) -X "github.com/qimaoww/dae-wing/db.AppDescription=$(DESCRIPTION)" $(GO_LDFLAGS)'
 
 include functions.mk
 
