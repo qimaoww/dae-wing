@@ -24,7 +24,7 @@ import (
 	"github.com/daeuniverse/dae-wing/graphql/service/node"
 	"github.com/daeuniverse/dae-wing/graphql/service/routing"
 	"github.com/daeuniverse/dae-wing/graphql/service/subscription"
-	"github.com/daeuniverse/dae/pkg/config_parser"
+	"github.com/qimaoww/dae/pkg/config_parser"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/tidwall/sjson"
 )

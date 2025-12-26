@@ -6,7 +6,7 @@
 package db
 
 import (
-	"github.com/daeuniverse/dae/pkg/config_parser"
+	"github.com/qimaoww/dae/pkg/config_parser"
 )
 
 type Group struct {

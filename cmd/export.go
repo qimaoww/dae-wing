@@ -12,7 +12,7 @@ import (
 	"github.com/daeuniverse/dae-wing/dae"
 	"github.com/daeuniverse/dae-wing/db"
 	"github.com/daeuniverse/dae-wing/graphql"
-	daeConfig "github.com/daeuniverse/dae/config"
+	daeConfig "github.com/qimaoww/dae/config"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/spf13/cobra"
 )

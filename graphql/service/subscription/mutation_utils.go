@@ -19,7 +19,7 @@ import (
 	"github.com/daeuniverse/dae-wing/db"
 	"github.com/daeuniverse/dae-wing/graphql/internal"
 	"github.com/daeuniverse/dae-wing/graphql/service/node"
-	"github.com/daeuniverse/dae/common/subscription"
+	"github.com/qimaoww/dae/common/subscription"
 	"github.com/go-co-op/gocron"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/sirupsen/logrus"

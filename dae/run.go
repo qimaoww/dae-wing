@@ -11,12 +11,12 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/daeuniverse/dae/common/netutils"
-	daeConfig "github.com/daeuniverse/dae/config"
-	"github.com/daeuniverse/dae/control"
-	"github.com/daeuniverse/dae/pkg/config_parser"
-	"github.com/daeuniverse/dae/pkg/logger"
-	"github.com/daeuniverse/outbound/protocol/direct"
+	"github.com/qimaoww/dae/common/netutils"
+	daeConfig "github.com/qimaoww/dae/config"
+	"github.com/qimaoww/dae/control"
+	"github.com/qimaoww/dae/pkg/config_parser"
+	"github.com/qimaoww/dae/pkg/logger"
+	"github.com/qimaoww/outbound/protocol/direct"
 	"github.com/mohae/deepcopy"
 	"github.com/sirupsen/logrus"
 )

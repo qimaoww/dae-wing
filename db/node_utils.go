@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae/component/outbound/dialer"
+	"github.com/qimaoww/dae/component/outbound/dialer"
 
 	"github.com/sirupsen/logrus"
 )

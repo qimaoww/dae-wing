@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/daeuniverse/dae/common/consts"
-	"github.com/daeuniverse/dae/control"
+	"github.com/qimaoww/dae/common/consts"
+	"github.com/qimaoww/dae/control"
 	"github.com/mzz2017/softwind/netproxy"
 )
 

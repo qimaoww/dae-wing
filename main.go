@@ -12,7 +12,7 @@ import (
 )
 
 import (
-	_ "github.com/daeuniverse/dae/component/outbound"
+	_ "github.com/qimaoww/dae/component/outbound"
 )
 
 func main() {

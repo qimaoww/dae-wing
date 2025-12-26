@@ -6,7 +6,7 @@
 package dae
 
 import (
-	daeConfig "github.com/daeuniverse/dae/config"
+	daeConfig "github.com/qimaoww/dae/config"
 	"reflect"
 )
 

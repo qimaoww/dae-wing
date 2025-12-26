@@ -6,8 +6,8 @@
 package internal
 
 import (
-	"github.com/daeuniverse/dae/config"
-	"github.com/daeuniverse/dae/pkg/config_parser"
+	"github.com/qimaoww/dae/config"
+	"github.com/qimaoww/dae/pkg/config_parser"
 )
 
 type FunctionOrPlaintextResolver struct {
