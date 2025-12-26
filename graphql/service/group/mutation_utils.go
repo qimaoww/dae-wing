@@ -7,8 +7,8 @@ package group
 
 import (
 	"context"
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
+	"github.com/qimaoww/dae-wing/common"
+	"github.com/qimaoww/dae-wing/db"
 	"github.com/qimaoww/dae/pkg/config_parser"
 	"github.com/graph-gophers/graphql-go"
 	"gorm.io/gorm"

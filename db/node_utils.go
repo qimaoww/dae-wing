@@ -8,7 +8,7 @@ package db
 import (
 	"strings"
 
-	"github.com/daeuniverse/dae-wing/common"
+	"github.com/qimaoww/dae-wing/common"
 	"github.com/qimaoww/dae/component/outbound/dialer"
 
 	"github.com/sirupsen/logrus"

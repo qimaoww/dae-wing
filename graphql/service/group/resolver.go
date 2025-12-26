@@ -2,11 +2,11 @@ package group
 
 import (
 	"context"
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql/internal"
-	"github.com/daeuniverse/dae-wing/graphql/service/node"
-	"github.com/daeuniverse/dae-wing/graphql/service/subscription"
+	"github.com/qimaoww/dae-wing/common"
+	"github.com/qimaoww/dae-wing/db"
+	"github.com/qimaoww/dae-wing/graphql/internal"
+	"github.com/qimaoww/dae-wing/graphql/service/node"
+	"github.com/qimaoww/dae-wing/graphql/service/subscription"
 	"github.com/graph-gophers/graphql-go"
 )
 

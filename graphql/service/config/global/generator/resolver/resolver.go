@@ -51,7 +51,7 @@ func (b *builder) Build() (string, error) {
 	b.WriteLine(0, "// Generated code; DO NOT EDIT.\n")
 	b.WriteLine(0, "package global\n")
 	b.WriteLine(0, fmt.Sprintf(`import "%v"`, t.PkgPath()))
-	b.WriteLine(0, fmt.Sprintf(`import "github.com/daeuniverse/dae-wing/graphql/scalar"`))
+	b.WriteLine(0, fmt.Sprintf(`import "github.com/qimaoww/dae-wing/graphql/scalar"`))
 	b.WriteLine(0, `type Resolver struct {
 	*daeConfig.Global
 }`)

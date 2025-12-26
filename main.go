@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/daeuniverse/dae-wing/cmd"
+	"github.com/qimaoww/dae-wing/cmd"
 	"github.com/json-iterator/go/extra"
 	"os"
 )

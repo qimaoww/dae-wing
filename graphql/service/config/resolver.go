@@ -6,9 +6,9 @@
 package config
 
 import (
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql/service/config/global"
+	"github.com/qimaoww/dae-wing/common"
+	"github.com/qimaoww/dae-wing/db"
+	"github.com/qimaoww/dae-wing/graphql/service/config/global"
 	daeConfig "github.com/qimaoww/dae/config"
 	"github.com/graph-gophers/graphql-go"
 )

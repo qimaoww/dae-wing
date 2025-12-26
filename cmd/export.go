@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/daeuniverse/dae-wing/dae"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql"
+	"github.com/qimaoww/dae-wing/dae"
+	"github.com/qimaoww/dae-wing/db"
+	"github.com/qimaoww/dae-wing/graphql"
 	daeConfig "github.com/qimaoww/dae/config"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/spf13/cobra"

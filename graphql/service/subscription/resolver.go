@@ -6,9 +6,9 @@
 package subscription
 
 import (
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql/service/node"
+	"github.com/qimaoww/dae-wing/common"
+	"github.com/qimaoww/dae-wing/db"
+	"github.com/qimaoww/dae-wing/graphql/service/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

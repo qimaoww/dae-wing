@@ -6,7 +6,7 @@
 package cmd
 
 import (
-	"github.com/daeuniverse/dae-wing/db"
+	"github.com/qimaoww/dae-wing/db"
 	daeConsts "github.com/qimaoww/dae/common/consts"
 	"github.com/spf13/cobra"
 )

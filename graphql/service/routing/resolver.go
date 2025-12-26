@@ -8,10 +8,10 @@ package routing
 import (
 	"strings"
 
-	"github.com/daeuniverse/dae-wing/common"
-	"github.com/daeuniverse/dae-wing/dae"
-	"github.com/daeuniverse/dae-wing/db"
-	"github.com/daeuniverse/dae-wing/graphql/internal"
+	"github.com/qimaoww/dae-wing/common"
+	"github.com/qimaoww/dae-wing/dae"
+	"github.com/qimaoww/dae-wing/db"
+	"github.com/qimaoww/dae-wing/graphql/internal"
 	daeConfig "github.com/qimaoww/dae/config"
 	"github.com/qimaoww/dae/pkg/config_parser"
 	"github.com/graph-gophers/graphql-go"
