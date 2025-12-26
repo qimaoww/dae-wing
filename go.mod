@@ -1,4 +1,4 @@
-module github.com/daeuniverse/dae-wing
+module github.com/qimaoww/dae-wing
 
 go 1.22.0
 
