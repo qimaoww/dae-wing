@@ -81,7 +81,8 @@ require (
 	github.com/onsi/ginkgo/v2 v2.22.2 // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
-	github.com/qimaoww/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d // indirect
+	github.com/qimaoww/dae-config-dist/go/dae_config v0.0.0-20251227-1 // indirect
+	github.com/qimaoww/quic-go v0.0.1 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
@@ -118,7 +119,5 @@ require (
 )
 
 replace github.com/qimaoww/dae => ./dae-core
-
-replace github.com/qimaoww/dae-config-dist/go/dae_config => github.com/daeuniverse/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d
 
 // replace github.com/qimaoww/dae => ../dae
